@@ -4,7 +4,6 @@ import { useInView } from "react-intersection-observer";
 import { AiFillPhone, AiTwotoneMail } from "react-icons/ai";
 import emailjs from "emailjs-com";
 import BarIcon from "./BarIcon.jsx";
-import Me1 from "../../src/assets/Mymeme1.png";
 
 const ContactForm = () => {
   const animation = useAnimation();
@@ -73,7 +72,6 @@ const ContactForm = () => {
       id="contactForm"
     >
       <h1 className="uppercase text-4xl text-violet-600 m-6">Contact Me</h1>
-      <img className="w-[20%] h-[20%] " src={Me1} />
       <p className="font-light pt-8 text-lg dark:text-slate-50 pb-5">
         Let's get Connected!
       </p>
